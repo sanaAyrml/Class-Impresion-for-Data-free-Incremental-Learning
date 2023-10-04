@@ -62,7 +62,7 @@ The code is includes borrowed implementations from (https://github.com/hshustc/C
 and (https://github.com/NVlabs/DeepInversion). Thanks for their great works.
 
 ## Citing
-
+```
 @inproceedings{ayromlou2022class,
   title={Class Impression for Data-Free Incremental Learning},
   author={Ayromlou, Sana and Abolmaesumi, Purang and Tsang, Teresa and Li, Xiaoxiao},
@@ -71,6 +71,7 @@ and (https://github.com/NVlabs/DeepInversion). Thanks for their great works.
   year={2022},
   organization={Springer}
 }
+```
 
 ## Contact
 
