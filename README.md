@@ -63,9 +63,14 @@ and (https://github.com/NVlabs/DeepInversion). Thanks for their great works.
 
 ## Citing
 
-```
-Will be added
-```
+@inproceedings{ayromlou2022class,
+  title={Class Impression for Data-Free Incremental Learning},
+  author={Ayromlou, Sana and Abolmaesumi, Purang and Tsang, Teresa and Li, Xiaoxiao},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={320--329},
+  year={2022},
+  organization={Springer}
+}
 
 ## Contact
 
