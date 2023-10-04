@@ -1,4 +1,4 @@
-# CI
+# Class-Impresion-for-Data-free-Incremental-Learning
 
 This is the PyTorch implemention of our paper **"Class Impression for Data-Free Incremental
 Learning"**(https://link.springer.com/chapter/10.1007/978-3-031-16440-8_31) accpeted by MICCAI 2022
