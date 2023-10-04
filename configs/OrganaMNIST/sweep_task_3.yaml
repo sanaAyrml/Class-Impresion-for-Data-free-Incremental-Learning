@@ -1,0 +1,119 @@
+program: main.py
+method: grid
+metric:
+  goal: maximize
+  name: Best Acc
+parameters:
+  lr:
+    value: 0.1
+  batch_size_1:
+    value: 40
+  input_dim:
+    value: 1
+  main_directory:
+    value: ../saved_models
+  ckp_prefix:
+    value: organaMNIST
+  random_seed:
+    value: 2
+  nb_cl_fg:
+    value: 3
+  nb_cl:
+    value: 3
+  nb_phases:
+    value: 3
+  num_classes:
+    value: 11
+  epochs:
+    value: 100
+  rs_ratio:
+    value: 0.66
+  dist:
+    value: 0.3
+  K:
+    value: 1
+  lw_mr:
+    value: 1
+  bs:
+    value: 40
+  setting_id:
+    value: 1
+  generation_lr:
+    value: 0.05
+  tv_l2:
+    value: 0.001
+  r_feature:
+    value: 1
+  l2:
+    value: 0.1
+  main_loss_multiplier:
+    value: 1
+  cosine_normalization:
+    value: True
+  imprint_weights:
+    value: True
+  adapt_lamda:
+    value: True
+  less_forget:
+    value: True
+  mr_loss:
+    value: True
+  do_flip:
+    value: True
+  resume:
+    value: True
+  add_sampler:
+    value: True
+  mode:
+    value: CCSI
+  add_data:
+    value: True
+  use_mean_initialization:
+    value: true
+  beta_2:
+    value: 0.9
+  random_label:
+    value: true
+  nb_generation:
+    value: 24
+  generate_more:
+    value: true
+  alpha_3:
+    value: 1
+  da_coef:
+    value: 1
+  ro:
+    value: 0.99
+  temprature:
+    value: 5
+  cuda_number:
+    value: 0
+
+  continual_norm:
+    value: True
+  small_model:
+    value: True
+  project_name:
+    value: github
+  data:
+    value: OrganaMnist
+  image_size:
+    value: 32
+  resolution:
+    value: 32
+  start_generate_phase:
+    value: 1
+  load_dricet_mode:
+    value: True
+  saved_model_address:
+    value: ../saved_models/previous_task_model_address
+  wandb_key:
+    value: your_key
+  wandb_acc:
+    value: your_acc
+early_terminate:
+  type: hyperband
+  s: 20
+  eta: 30
+  max_iter: 50
+project: github
